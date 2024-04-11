@@ -1,0 +1,12 @@
+version: '3'
+services:
+  fox-blog:
+    build: .
+    ports:
+      - "8080:8080"
+  fox-blog-data:
+    build: ./data
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/json-server/data
