@@ -6,3 +6,5 @@ Fox Blog is my first venture into learning React. This project was created follo
 
 Make sure you have Docker installed, then enter the folder and run:
 `docker compose up --build`
+
+The page will then be available to access on http://localhost:8080
